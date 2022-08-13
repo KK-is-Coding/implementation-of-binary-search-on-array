@@ -22,7 +22,6 @@ int binarySearch(int arr[], int size, int element)
             right = mid - 1;
         }
     }
-    // cout << "NOTE :- element found at -1 means there's no such element in array." << endl;
     return -1;
 }
 
